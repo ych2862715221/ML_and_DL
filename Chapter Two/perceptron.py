@@ -46,9 +46,9 @@ class Perception:
         """
         regn = np.random.RandomState(self.random_state)
         self.w_ = regn.normal(loc=0.0, scale=0.01, size=X.shape[1])
-        # 上述语句为初始化权重向量,  均值为0，标准差为0.01的正态分布的随机数
+        # 上述语句为初始化权重向量,  均值为0(以y轴为中心的正态分布)，标准差为0.01的正态分布的随机数
 
-        self.b_ = np.float(0.)
+        self.b_ = np.float_(0.)
         self.errors_ = []
 
         for _ in range(self.n_iter):
