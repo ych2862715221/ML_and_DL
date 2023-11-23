@@ -18,7 +18,7 @@
     git commit -m 'first commit'  
 关联到远程库
     
-    git remote add origin git@github.com:BeroKiTeer/CangshuMaze.git
+    git remote add origin git@github.com:ych2862715221/ML_and_DL.git
 获取远程库与本地同步合并
     
     git pull --rebase origin master
