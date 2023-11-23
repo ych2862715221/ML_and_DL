@@ -1,6 +1,6 @@
 # ML_and_DL
 
-## 1)简单介绍：
+## 1）简单介绍：
 
 ​	这是一个 Machine Learning 和 Deep Learning 的学习笔记(基于pytorch)，用于整理自己的看书学习过程，和存储代码。
 参考教材：《深度学习》,《python机器学习基于Pytorch和Scikit-Learn》,《深度学习与计算机视觉》
