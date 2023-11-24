@@ -5,7 +5,14 @@
 ​	这是一个 Machine Learning 和 Deep Learning 的学习笔记(基于pytorch)，用于整理自己的看书学习过程，和存储代码。
 参考教材：《深度学习》,《python机器学习基于Pytorch和Scikit-Learn》,《深度学习与计算机视觉》
 
-## 2）关于上交代码：
+### 前置知识
+需要熟悉python，
+需要先了解Numpy，Pandas，Matplotlib相关知识可参考下列网站：
+[Numpy](https://sebastianraschka.com/blog/2020/numpy-intro.html),
+[Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html), 
+[Matplotlib](https://matplotlib.org/stable/tutorials/introductory/usage.html).
+
+## 3）关于上交代码：
 
 进入项目文件夹，右键“Git Bash Here”，通过命令 git init 把这个目录变成git可以管理的仓库。
     
