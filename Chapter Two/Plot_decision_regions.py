@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def plot_decision_regions(X, y, classifier, resolution=0.02):
     # setup marker generator and color map
     markers = ('o', 's', '^', 'v', '<')
-    colors = ('res', 'blue', 'lightgreen', 'gray', 'cyan')
+    colors = ('red', 'blue', 'lightgreen', 'gray', 'cyan')
     cmap = ListedColormap(colors[:len(np.unique(y))])
 
     # plot the decision surface
@@ -22,4 +22,13 @@ def plot_decision_regions(X, y, classifier, resolution=0.02):
     plt.ylim(xx2.min(), xx2.max())
 
     # plot class examples
-    
+    for idx, cl in enumerate(np.unique(y)):
+        plt.scatter(
+            x=X[y==cl, 0],
+            y=X[y==cl, 1],
+            alpha=0.8,
+            c=colors[idx],
+            marker=markers[idx],
+            label=f'Class{cl}',
+            edgecolor='black'
+        )

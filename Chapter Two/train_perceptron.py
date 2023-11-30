@@ -46,3 +46,12 @@ plt.plot(
 plt.xlabel('Epoches')
 plt.ylabel('Number of updates')
 plt.show()
+
+"""显示决策边界"""
+from Plot_decision_regions import *
+
+plot_decision_regions(X, y, classifier=ppn)
+plt.xlabel('Sepal length [cm]')
+plt.ylabel('Petal length [cm]')
+plt.legend(loc='upper left')
+plt.show()
